@@ -22,6 +22,9 @@ To load our fixtures into the database
 install twilio
 >$ composer require twilio//sdk
 
+execute the command
+>$ php bin/console myapp:sms
+
 creat conjob:
 
 crontab -e

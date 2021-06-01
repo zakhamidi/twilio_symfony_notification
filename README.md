@@ -29,4 +29,4 @@ creat conjob:
 
 crontab -e
 
-0 0 * * * php ~~/www/Appointments/bin/console myapp::sms --env=prod
+>0 0 * * * php ~~/www/Appointments/bin/console myapp::sms --env=prod
